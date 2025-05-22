@@ -18,7 +18,7 @@
 
         <div class="sidebar">
             <div class="sidebar-header">
-                <h2 style="font-weight: 900;">Journal Entries</h2>
+                <h2>Journal Entries</h2>
                 <div id="connection-status" class="status">
                     <span id="status-indicator"></span>
                     <span id="status-text">Checking connection...</span>
@@ -28,27 +28,25 @@
                 <!-- Entries will be listed here -->
                 <p class="no-entries-message">No entries yet</p>
             </div>
-            <button id="new-entry-btn" class="button new-entry-btn" style="font-weight: 700;">New Entry</button>
+            <button id="new-entry-btn" class="button new-entry-btn">New Entry</button>
         </div>
 
         <div class="main-content">
             <div id="editor-container">
                 <div class="editor-header">
-                    <h2 id="current-date" style="font-weight: 900;">New Entry</h2>
+                    <h2 id="current-date">New Entry</h2>
                     <div class="editor-actions">
-                        <button id="save-btn" class="button save-btn" disabled style="font-weight: 700;">Save
-                            Entry</button>
+                        <button id="save-btn" class="button save-btn" disabled>Save Entry</button>
                     </div>
                 </div>
                 <div class="editor-wrapper">
                     <textarea id="journal-editor" placeholder="Turn off your Wi-Fi to start journaling..."
                         disabled></textarea>
                     <div id="offline-message" class="message hidden">
-                        <p style="font-weight: 500;">📝 You're offline! Feel free to journal your thoughts.</p>
+                        <p>📝 You're offline! Feel free to journal your thoughts.</p>
                     </div>
                     <div id="online-message" class="message hidden">
-                        <p style="font-weight: 500;">⚠️ Please turn off your Wi-Fi to journal. This app requires being
-                            offline for privacy.</p>
+                        <p>⚠️ Please turn off your Wi-Fi to journal. This app requires being offline for focus.</p>
                     </div>
                 </div>
             </div>

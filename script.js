@@ -206,7 +206,7 @@ function loadEntriesList() {
             }
             
             entryElement.innerHTML = `
-                <div class="entry-date" style="font-weight: 700;">${formatDate(new Date(entry.date))}</div>
+                <div class="entry-date" style="font-weight: 600;">${formatDate(new Date(entry.date))}</div>
                 <div class="entry-preview">${entry.preview}</div>
             `;
             
